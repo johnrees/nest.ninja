@@ -627,6 +627,10 @@ cli-boxes@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/cli-boxes/-/cli-boxes-1.0.0.tgz#4fa917c3e59c94a004cd61f8ee509da651687143"
 
+clipper-fpoint@^6.4.22:
+  version "6.4.22"
+  resolved "https://registry.yarnpkg.com/clipper-fpoint/-/clipper-fpoint-6.4.22.tgz#4b628a45f1c7a3f776a2fa959d4d3a5615419888"
+
 cliui@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
