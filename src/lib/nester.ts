@@ -27,10 +27,10 @@ function offsetTree(
 class Nester {
   private parts: [string]
 
+  constructor(private spacing = 0) {}
+
   nest() {
-    const SPACING = 10
-    const tree = this.parts
-    offsetTree(tree, 0.5 * SPACING, polygonOffset)
+    offsetTree(this.parts, this.spacing / 2, polygonOffset)
 
     // binPolygon = SvgParser.polygonify(bin);
     // binPolygon = this.cleanPolygon(binPolygon);
